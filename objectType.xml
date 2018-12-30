@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/objectType.xsd">
+	<import>		
+		<!-- trophy conditions -->
+		<type>
+			<name>eu.hanashi.wsc.discord.identitites</name>
+			<definitionname>com.woltlab.wcf.condition.trophy</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>discordIdentities</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<!-- /trophy conditions -->
+	</import>
+</data>
