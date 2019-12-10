@@ -5,8 +5,8 @@
         <packagename language="de"><![CDATA[Discord Synchronisierung Trophäe]]></packagename>
         <packagedescription><![CDATA[Synchronizes user groups between woltlab suite core and discord.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Ergänzt Trophäen-Abhängigkeit für Discord-Synchronisation.]]></packagedescription>
-        <version>1.0.0</version>
-        <date>2018-12-30</date>
+        <version>1.0.1</version>
+        <date>2019-12-10</date>
     </packageinformation>
 
     <authorinformation>
@@ -22,10 +22,6 @@
         <requiredpackage minversion="3.1.0">com.woltlab.wcf</requiredpackage>
         <requiredpackage minversion="0.5.0">eu.hanashi.discord-sync</requiredpackage>
     </requiredpackages>
-	
-	<excludedpackages>
-        <excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-    </excludedpackages>
 
     <instructions type="install">
 		<!-- language -->
@@ -34,4 +30,9 @@
 		<!-- config -->
         <instruction type="objectType" />
     </instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
+		<!-- language -->
+        <instruction type="language"/>
+	</instructions>
 </package>
