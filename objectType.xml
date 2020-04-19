@@ -5,10 +5,8 @@
 		<type>
 			<name>eu.hanashi.wsc.discord.identitites</name>
 			<definitionname>com.woltlab.wcf.condition.trophy</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>discordIdentities</propertyname>
-			<minvalue>0</minvalue>
+			<classname>wcf\system\condition\DiscordConnectedCondition</classname>
+			<conditiongroup>discord</conditiongroup>
 		</type>
 		<!-- /trophy conditions -->
 	</import>

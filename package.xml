@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="eu.hanashi.discord-sync-trophy" xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/package.xsd">
     <packageinformation>
-        <packagename><![CDATA[Discord Synchronization Trophy]]></packagename>
-        <packagename language="de"><![CDATA[Discord Synchronisierung Trophäe]]></packagename>
-        <packagedescription><![CDATA[Synchronizes user groups between woltlab suite core and discord.]]></packagedescription>
+        <packagename><![CDATA[Discord Sync (Trophy)]]></packagename>
+        <packagename language="de"><![CDATA[Discord-Sync (Trophäe)]]></packagename>
+        <packagedescription><![CDATA[Adds trophy dependency for discord synchronization.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Ergänzt Trophäen-Abhängigkeit für Discord-Synchronisation.]]></packagedescription>
-        <version>1.0.1</version>
-        <date>2019-12-10</date>
+        <version>1.1.0</version>
+        <date>2020-04-10</date>
     </packageinformation>
 
     <authorinformation>
         <author><![CDATA[Hanashi]]></author>
         <authorurl><![CDATA[https://hanashi.eu/]]></authorurl>
     </authorinformation>
-	
-	<compatibility>
-		<api version="2018" />
-	</compatibility>
 
     <requiredpackages>
         <requiredpackage minversion="3.1.0">com.woltlab.wcf</requiredpackage>
-        <requiredpackage minversion="0.5.0">eu.hanashi.discord-sync</requiredpackage>
+        <requiredpackage minversion="1.0.0 Alpha 1">eu.hanashi.discord-sync</requiredpackage>
     </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
 
     <instructions type="install">
 		<!-- language -->
@@ -31,8 +31,11 @@
         <instruction type="objectType" />
     </instructions>
 	
-	<instructions type="update" fromversion="1.0.0">
+	<instructions type="update" fromversion="1.0.1">
 		<!-- language -->
         <instruction type="language"/>
+		
+		<!-- config -->
+        <instruction type="objectType" />
 	</instructions>
 </package>
