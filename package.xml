@@ -6,12 +6,12 @@
         <packagedescription><![CDATA[Adds trophy dependency for discord synchronization.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Ergänzt Trophäen-Abhängigkeit für Discord-Synchronisation.]]></packagedescription>
         <version>1.1.0</version>
-        <date>2020-05-17</date>
+        <date>2020-05-27</date>
     </packageinformation>
 
     <authorinformation>
         <author><![CDATA[Hanashi]]></author>
-        <authorurl><![CDATA[https://hanashi.dev/]]></authorurl>
+        <authorurl><![CDATA[https://hanashi.eu/]]></authorurl>
     </authorinformation>
 
     <requiredpackages>
@@ -24,7 +24,18 @@
     </excludedpackages>
 
     <instructions type="install">
+		<!-- language -->
+        <instruction type="language"/>
+		
 		<!-- config -->
         <instruction type="objectType" />
     </instructions>
+	
+	<instructions type="update" fromversion="1.0.1">
+		<!-- language -->
+        <instruction type="language"/>
+		
+		<!-- config -->
+        <instruction type="objectType" />
+	</instructions>
 </package>
