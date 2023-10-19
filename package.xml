@@ -14,7 +14,7 @@
 		<authorurl>https://hanashi.dev/</authorurl>
 	</authorinformation>
 	<requiredpackages>
-		<requiredpackage minversion="6.0.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.5.18">com.woltlab.wcf</requiredpackage>
 		<requiredpackage minversion="1.2.1">eu.hanashi.discord-sync</requiredpackage>
 	</requiredpackages>
 	<excludedpackages>
