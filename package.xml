@@ -6,7 +6,7 @@
 		<packagename language="de">Discord-Sync (Trophäe)</packagename>
 		<packagedescription>Adds trophy dependency for discord synchronization.</packagedescription>
 		<packagedescription language="de">Ergänzt Trophäen-Abhängigkeit für Discord-Synchronisation.</packagedescription>
-		<version>1.2.0</version>
+		<version>1.2.1</version>
 		<date>2023-10-20</date>
 	</packageinformation>
 	<authorinformation>
