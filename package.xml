@@ -7,7 +7,7 @@
 		<packagedescription>Adds trophy dependency for discord synchronization.</packagedescription>
 		<packagedescription language="de">Ergänzt Trophäen-Abhängigkeit für Discord-Synchronisation.</packagedescription>
 		<version>1.2.0</version>
-		<date>2023-10-19</date>
+		<date>2023-10-20</date>
 	</packageinformation>
 	<authorinformation>
 		<author>Hanashi Development</author>
@@ -15,7 +15,7 @@
 	</authorinformation>
 	<requiredpackages>
 		<requiredpackage minversion="5.5.18">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="1.2.1">eu.hanashi.discord-sync</requiredpackage>
+		<requiredpackage minversion="1.1.8">eu.hanashi.discord-sync</requiredpackage>
 	</requiredpackages>
 	<excludedpackages>
 		<excludedpackage version="6.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
@@ -23,6 +23,9 @@
 	<instructions type="install">
 		<instruction type="language"/>
 		<instruction type="objectType"/>
+	</instructions>
+	<instructions type="update" fromversion="1.2.1">
+		<void/>
 	</instructions>
 	<instructions type="update" fromversion="1.1.*">
 		<void/>
